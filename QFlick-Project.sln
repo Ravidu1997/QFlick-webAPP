@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External", "External", "{E761F723-A16E-4029-953E-48B53E4ED598}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QFlick-WebAPI", "QFlick-WebAPI\QFlick-WebAPI.csproj", "{09BAF0E7-ACAC-4E06-8FA2-FCB671C290A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{09B96E1A-2DC6-41FD-A5B6-6992ED5FA290}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{BFC4AF77-6C2D-4127-95B8-DF85EB075F1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QFlick.Domain", "QFlick.Domain\QFlick.Domain.csproj", "{71DEDD97-24EF-4E33-BAC4-6BAEE43F92FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QFlick.Application", "QFlick.Application\QFlick.Application.csproj", "{1D1F9F6D-F8EA-4B27-A0D7-94C14A2C66F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QFlick.Infrastructure", "QFlick.Infrastructure\QFlick.Infrastructure.csproj", "{F0BD7572-4E73-4473-B091-BEEAACC4C2E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09BAF0E7-ACAC-4E06-8FA2-FCB671C290A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09BAF0E7-ACAC-4E06-8FA2-FCB671C290A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09BAF0E7-ACAC-4E06-8FA2-FCB671C290A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09BAF0E7-ACAC-4E06-8FA2-FCB671C290A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71DEDD97-24EF-4E33-BAC4-6BAEE43F92FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71DEDD97-24EF-4E33-BAC4-6BAEE43F92FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71DEDD97-24EF-4E33-BAC4-6BAEE43F92FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71DEDD97-24EF-4E33-BAC4-6BAEE43F92FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D1F9F6D-F8EA-4B27-A0D7-94C14A2C66F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D1F9F6D-F8EA-4B27-A0D7-94C14A2C66F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D1F9F6D-F8EA-4B27-A0D7-94C14A2C66F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D1F9F6D-F8EA-4B27-A0D7-94C14A2C66F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0BD7572-4E73-4473-B091-BEEAACC4C2E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0BD7572-4E73-4473-B091-BEEAACC4C2E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0BD7572-4E73-4473-B091-BEEAACC4C2E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0BD7572-4E73-4473-B091-BEEAACC4C2E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E761F723-A16E-4029-953E-48B53E4ED598} = {09B96E1A-2DC6-41FD-A5B6-6992ED5FA290}
+		{09BAF0E7-ACAC-4E06-8FA2-FCB671C290A0} = {E761F723-A16E-4029-953E-48B53E4ED598}
+		{BFC4AF77-6C2D-4127-95B8-DF85EB075F1E} = {09B96E1A-2DC6-41FD-A5B6-6992ED5FA290}
+		{71DEDD97-24EF-4E33-BAC4-6BAEE43F92FB} = {BFC4AF77-6C2D-4127-95B8-DF85EB075F1E}
+		{1D1F9F6D-F8EA-4B27-A0D7-94C14A2C66F1} = {BFC4AF77-6C2D-4127-95B8-DF85EB075F1E}
+		{F0BD7572-4E73-4473-B091-BEEAACC4C2E2} = {E761F723-A16E-4029-953E-48B53E4ED598}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52255D13-4531-4A32-9CF0-8710112D947C}
+	EndGlobalSection
+EndGlobal

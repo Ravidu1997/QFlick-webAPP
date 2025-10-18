@@ -1,0 +1,377 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Projects\\QFlick\\QFlick-ProjectAPI\\QFlick-Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{09BAF0E7-ACAC-4E06-8FA2-FCB671C290A0}|QFlick-WebAPI\\QFlick-WebAPI.csproj|e:\\projects\\qflick\\qflick-projectapi\\qflick-project\\qflick-webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09BAF0E7-ACAC-4E06-8FA2-FCB671C290A0}|QFlick-WebAPI\\QFlick-WebAPI.csproj|solutionrelative:qflick-webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0BD7572-4E73-4473-B091-BEEAACC4C2E2}|QFlick.Infrastructure\\QFlick.Infrastructure.csproj|e:\\projects\\qflick\\qflick-projectapi\\qflick-project\\qflick.infrastructure\\dbcontexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0BD7572-4E73-4473-B091-BEEAACC4C2E2}|QFlick.Infrastructure\\QFlick.Infrastructure.csproj|solutionrelative:qflick.infrastructure\\dbcontexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0BD7572-4E73-4473-B091-BEEAACC4C2E2}|QFlick.Infrastructure\\QFlick.Infrastructure.csproj|e:\\projects\\qflick\\qflick-projectapi\\qflick-project\\qflick.infrastructure\\qflick.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F0BD7572-4E73-4473-B091-BEEAACC4C2E2}|QFlick.Infrastructure\\QFlick.Infrastructure.csproj|solutionrelative:qflick.infrastructure\\qflick.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71DEDD97-24EF-4E33-BAC4-6BAEE43F92FB}|QFlick.Domain\\QFlick.Domain.csproj|e:\\projects\\qflick\\qflick-projectapi\\qflick-project\\qflick.domain\\qflick.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{71DEDD97-24EF-4E33-BAC4-6BAEE43F92FB}|QFlick.Domain\\QFlick.Domain.csproj|solutionrelative:qflick.domain\\qflick.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1F9F6D-F8EA-4B27-A0D7-94C14A2C66F1}|QFlick.Application\\QFlick.Application.csproj|e:\\projects\\qflick\\qflick-projectapi\\qflick-project\\qflick.application\\qflick.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1D1F9F6D-F8EA-4B27-A0D7-94C14A2C66F1}|QFlick.Application\\QFlick.Application.csproj|solutionrelative:qflick.application\\qflick.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71DEDD97-24EF-4E33-BAC4-6BAEE43F92FB}|QFlick.Domain\\QFlick.Domain.csproj|e:\\projects\\qflick\\qflick-projectapi\\qflick-project\\qflick.domain\\dtos\\createqueuedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71DEDD97-24EF-4E33-BAC4-6BAEE43F92FB}|QFlick.Domain\\QFlick.Domain.csproj|solutionrelative:qflick.domain\\dtos\\createqueuedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71DEDD97-24EF-4E33-BAC4-6BAEE43F92FB}|QFlick.Domain\\QFlick.Domain.csproj|e:\\projects\\qflick\\qflick-projectapi\\qflick-project\\qflick.domain\\consts\\responsemessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71DEDD97-24EF-4E33-BAC4-6BAEE43F92FB}|QFlick.Domain\\QFlick.Domain.csproj|solutionrelative:qflick.domain\\consts\\responsemessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71DEDD97-24EF-4E33-BAC4-6BAEE43F92FB}|QFlick.Domain\\QFlick.Domain.csproj|e:\\projects\\qflick\\qflick-projectapi\\qflick-project\\qflick.domain\\consts\\queuestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71DEDD97-24EF-4E33-BAC4-6BAEE43F92FB}|QFlick.Domain\\QFlick.Domain.csproj|solutionrelative:qflick.domain\\consts\\queuestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71DEDD97-24EF-4E33-BAC4-6BAEE43F92FB}|QFlick.Domain\\QFlick.Domain.csproj|e:\\projects\\qflick\\qflick-projectapi\\qflick-project\\qflick.domain\\entities\\client\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71DEDD97-24EF-4E33-BAC4-6BAEE43F92FB}|QFlick.Domain\\QFlick.Domain.csproj|solutionrelative:qflick.domain\\entities\\client\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71DEDD97-24EF-4E33-BAC4-6BAEE43F92FB}|QFlick.Domain\\QFlick.Domain.csproj|e:\\projects\\qflick\\qflick-projectapi\\qflick-project\\qflick.domain\\entities\\changerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71DEDD97-24EF-4E33-BAC4-6BAEE43F92FB}|QFlick.Domain\\QFlick.Domain.csproj|solutionrelative:qflick.domain\\entities\\changerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71DEDD97-24EF-4E33-BAC4-6BAEE43F92FB}|QFlick.Domain\\QFlick.Domain.csproj|e:\\projects\\qflick\\qflick-projectapi\\qflick-project\\qflick.domain\\entities\\queue\\queuedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71DEDD97-24EF-4E33-BAC4-6BAEE43F92FB}|QFlick.Domain\\QFlick.Domain.csproj|solutionrelative:qflick.domain\\entities\\queue\\queuedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71DEDD97-24EF-4E33-BAC4-6BAEE43F92FB}|QFlick.Domain\\QFlick.Domain.csproj|e:\\projects\\qflick\\qflick-projectapi\\qflick-project\\qflick.domain\\entities\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71DEDD97-24EF-4E33-BAC4-6BAEE43F92FB}|QFlick.Domain\\QFlick.Domain.csproj|solutionrelative:qflick.domain\\entities\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71DEDD97-24EF-4E33-BAC4-6BAEE43F92FB}|QFlick.Domain\\QFlick.Domain.csproj|e:\\projects\\qflick\\qflick-projectapi\\qflick-project\\qflick.domain\\entities\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71DEDD97-24EF-4E33-BAC4-6BAEE43F92FB}|QFlick.Domain\\QFlick.Domain.csproj|solutionrelative:qflick.domain\\entities\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71DEDD97-24EF-4E33-BAC4-6BAEE43F92FB}|QFlick.Domain\\QFlick.Domain.csproj|e:\\projects\\qflick\\qflick-projectapi\\qflick-project\\qflick.domain\\entities\\client\\userfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71DEDD97-24EF-4E33-BAC4-6BAEE43F92FB}|QFlick.Domain\\QFlick.Domain.csproj|solutionrelative:qflick.domain\\entities\\client\\userfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71DEDD97-24EF-4E33-BAC4-6BAEE43F92FB}|QFlick.Domain\\QFlick.Domain.csproj|e:\\projects\\qflick\\qflick-projectapi\\qflick-project\\qflick.domain\\entities\\loyaltypoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71DEDD97-24EF-4E33-BAC4-6BAEE43F92FB}|QFlick.Domain\\QFlick.Domain.csproj|solutionrelative:qflick.domain\\entities\\loyaltypoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71DEDD97-24EF-4E33-BAC4-6BAEE43F92FB}|QFlick.Domain\\QFlick.Domain.csproj|e:\\projects\\qflick\\qflick-projectapi\\qflick-project\\qflick.domain\\entities\\staff\\servicegroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71DEDD97-24EF-4E33-BAC4-6BAEE43F92FB}|QFlick.Domain\\QFlick.Domain.csproj|solutionrelative:qflick.domain\\entities\\staff\\servicegroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71DEDD97-24EF-4E33-BAC4-6BAEE43F92FB}|QFlick.Domain\\QFlick.Domain.csproj|e:\\projects\\qflick\\qflick-projectapi\\qflick-project\\qflick.domain\\entities\\staff\\staffuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71DEDD97-24EF-4E33-BAC4-6BAEE43F92FB}|QFlick.Domain\\QFlick.Domain.csproj|solutionrelative:qflick.domain\\entities\\staff\\staffuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71DEDD97-24EF-4E33-BAC4-6BAEE43F92FB}|QFlick.Domain\\QFlick.Domain.csproj|e:\\projects\\qflick\\qflick-projectapi\\qflick-project\\qflick.domain\\entities\\staff\\knowledgebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71DEDD97-24EF-4E33-BAC4-6BAEE43F92FB}|QFlick.Domain\\QFlick.Domain.csproj|solutionrelative:qflick.domain\\entities\\staff\\knowledgebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71DEDD97-24EF-4E33-BAC4-6BAEE43F92FB}|QFlick.Domain\\QFlick.Domain.csproj|e:\\projects\\qflick\\qflick-projectapi\\qflick-project\\qflick.domain\\entities\\client\\userdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71DEDD97-24EF-4E33-BAC4-6BAEE43F92FB}|QFlick.Domain\\QFlick.Domain.csproj|solutionrelative:qflick.domain\\entities\\client\\userdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71DEDD97-24EF-4E33-BAC4-6BAEE43F92FB}|QFlick.Domain\\QFlick.Domain.csproj|e:\\projects\\qflick\\qflick-projectapi\\qflick-project\\qflick.domain\\entities\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71DEDD97-24EF-4E33-BAC4-6BAEE43F92FB}|QFlick.Domain\\QFlick.Domain.csproj|solutionrelative:qflick.domain\\entities\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71DEDD97-24EF-4E33-BAC4-6BAEE43F92FB}|QFlick.Domain\\QFlick.Domain.csproj|e:\\projects\\qflick\\qflick-projectapi\\qflick-project\\qflick.domain\\entities\\client\\usersetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71DEDD97-24EF-4E33-BAC4-6BAEE43F92FB}|QFlick.Domain\\QFlick.Domain.csproj|solutionrelative:qflick.domain\\entities\\client\\usersetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Projects\\QFlick\\QFlick-ProjectAPI\\QFlick-Project\\QFlick-WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "QFlick-WebAPI\\Program.cs",
+              "ToolTip": "E:\\Projects\\QFlick\\QFlick-ProjectAPI\\QFlick-Project\\QFlick-WebAPI\\Program.cs",
+              "RelativeToolTip": "QFlick-WebAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T06:58:43.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "E:\\Projects\\QFlick\\QFlick-ProjectAPI\\QFlick-Project\\QFlick.Infrastructure\\DbContexts\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "QFlick.Infrastructure\\DbContexts\\AppDbContext.cs",
+              "ToolTip": "E:\\Projects\\QFlick\\QFlick-ProjectAPI\\QFlick-Project\\QFlick.Infrastructure\\DbContexts\\AppDbContext.cs",
+              "RelativeToolTip": "QFlick.Infrastructure\\DbContexts\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T06:57:19.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QFlick.Infrastructure.csproj",
+              "DocumentMoniker": "E:\\Projects\\QFlick\\QFlick-ProjectAPI\\QFlick-Project\\QFlick.Infrastructure\\QFlick.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "QFlick.Infrastructure\\QFlick.Infrastructure.csproj",
+              "ToolTip": "E:\\Projects\\QFlick\\QFlick-ProjectAPI\\QFlick-Project\\QFlick.Infrastructure\\QFlick.Infrastructure.csproj",
+              "RelativeToolTip": "QFlick.Infrastructure\\QFlick.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-16T12:54:16.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QFlick.Application.csproj",
+              "DocumentMoniker": "E:\\Projects\\QFlick\\QFlick-ProjectAPI\\QFlick-Project\\QFlick.Application\\QFlick.Application.csproj",
+              "RelativeDocumentMoniker": "QFlick.Application\\QFlick.Application.csproj",
+              "ToolTip": "E:\\Projects\\QFlick\\QFlick-ProjectAPI\\QFlick-Project\\QFlick.Application\\QFlick.Application.csproj",
+              "RelativeToolTip": "QFlick.Application\\QFlick.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-16T12:53:49.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QFlick.Domain.csproj",
+              "DocumentMoniker": "E:\\Projects\\QFlick\\QFlick-ProjectAPI\\QFlick-Project\\QFlick.Domain\\QFlick.Domain.csproj",
+              "RelativeDocumentMoniker": "QFlick.Domain\\QFlick.Domain.csproj",
+              "ToolTip": "E:\\Projects\\QFlick\\QFlick-ProjectAPI\\QFlick-Project\\QFlick.Domain\\QFlick.Domain.csproj",
+              "RelativeToolTip": "QFlick.Domain\\QFlick.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-16T12:53:05.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateQueueDto.cs",
+              "DocumentMoniker": "E:\\Projects\\QFlick\\QFlick-ProjectAPI\\QFlick-Project\\QFlick.Domain\\DTOs\\CreateQueueDto.cs",
+              "RelativeDocumentMoniker": "QFlick.Domain\\DTOs\\CreateQueueDto.cs",
+              "ToolTip": "E:\\Projects\\QFlick\\QFlick-ProjectAPI\\QFlick-Project\\QFlick.Domain\\DTOs\\CreateQueueDto.cs",
+              "RelativeToolTip": "QFlick.Domain\\DTOs\\CreateQueueDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T12:35:20.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ResponseMessage.cs",
+              "DocumentMoniker": "E:\\Projects\\QFlick\\QFlick-ProjectAPI\\QFlick-Project\\QFlick.Domain\\Consts\\ResponseMessage.cs",
+              "RelativeDocumentMoniker": "QFlick.Domain\\Consts\\ResponseMessage.cs",
+              "ToolTip": "E:\\Projects\\QFlick\\QFlick-ProjectAPI\\QFlick-Project\\QFlick.Domain\\Consts\\ResponseMessage.cs",
+              "RelativeToolTip": "QFlick.Domain\\Consts\\ResponseMessage.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T12:22:46.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "QueueStatus.cs",
+              "DocumentMoniker": "E:\\Projects\\QFlick\\QFlick-ProjectAPI\\QFlick-Project\\QFlick.Domain\\Consts\\QueueStatus.cs",
+              "RelativeDocumentMoniker": "QFlick.Domain\\Consts\\QueueStatus.cs",
+              "ToolTip": "E:\\Projects\\QFlick\\QFlick-ProjectAPI\\QFlick-Project\\QFlick.Domain\\Consts\\QueueStatus.cs",
+              "RelativeToolTip": "QFlick.Domain\\Consts\\QueueStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T12:16:35.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ChangeRequest.cs",
+              "DocumentMoniker": "E:\\Projects\\QFlick\\QFlick-ProjectAPI\\QFlick-Project\\QFlick.Domain\\Entities\\ChangeRequest.cs",
+              "RelativeDocumentMoniker": "QFlick.Domain\\Entities\\ChangeRequest.cs",
+              "ToolTip": "E:\\Projects\\QFlick\\QFlick-ProjectAPI\\QFlick-Project\\QFlick.Domain\\Entities\\ChangeRequest.cs",
+              "RelativeToolTip": "QFlick.Domain\\Entities\\ChangeRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T11:55:12.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Service.cs",
+              "DocumentMoniker": "E:\\Projects\\QFlick\\QFlick-ProjectAPI\\QFlick-Project\\QFlick.Domain\\Entities\\Service.cs",
+              "RelativeDocumentMoniker": "QFlick.Domain\\Entities\\Service.cs",
+              "ToolTip": "E:\\Projects\\QFlick\\QFlick-ProjectAPI\\QFlick-Project\\QFlick.Domain\\Entities\\Service.cs",
+              "RelativeToolTip": "QFlick.Domain\\Entities\\Service.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T11:41:37.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "E:\\Projects\\QFlick\\QFlick-ProjectAPI\\QFlick-Project\\QFlick.Domain\\Entities\\Notification.cs",
+              "RelativeDocumentMoniker": "QFlick.Domain\\Entities\\Notification.cs",
+              "ToolTip": "E:\\Projects\\QFlick\\QFlick-ProjectAPI\\QFlick-Project\\QFlick.Domain\\Entities\\Notification.cs",
+              "RelativeToolTip": "QFlick.Domain\\Entities\\Notification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T11:35:01.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserFeedback.cs",
+              "DocumentMoniker": "E:\\Projects\\QFlick\\QFlick-ProjectAPI\\QFlick-Project\\QFlick.Domain\\Entities\\Client\\UserFeedback.cs",
+              "RelativeDocumentMoniker": "QFlick.Domain\\Entities\\Client\\UserFeedback.cs",
+              "ToolTip": "E:\\Projects\\QFlick\\QFlick-ProjectAPI\\QFlick-Project\\QFlick.Domain\\Entities\\Client\\UserFeedback.cs",
+              "RelativeToolTip": "QFlick.Domain\\Entities\\Client\\UserFeedback.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T11:30:37.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LoyaltyPoint.cs",
+              "DocumentMoniker": "E:\\Projects\\QFlick\\QFlick-ProjectAPI\\QFlick-Project\\QFlick.Domain\\Entities\\LoyaltyPoint.cs",
+              "RelativeDocumentMoniker": "QFlick.Domain\\Entities\\LoyaltyPoint.cs",
+              "ToolTip": "E:\\Projects\\QFlick\\QFlick-ProjectAPI\\QFlick-Project\\QFlick.Domain\\Entities\\LoyaltyPoint.cs",
+              "RelativeToolTip": "QFlick.Domain\\Entities\\LoyaltyPoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T11:26:35.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ServiceGroup.cs",
+              "DocumentMoniker": "E:\\Projects\\QFlick\\QFlick-ProjectAPI\\QFlick-Project\\QFlick.Domain\\Entities\\staff\\ServiceGroup.cs",
+              "RelativeDocumentMoniker": "QFlick.Domain\\Entities\\staff\\ServiceGroup.cs",
+              "ToolTip": "E:\\Projects\\QFlick\\QFlick-ProjectAPI\\QFlick-Project\\QFlick.Domain\\Entities\\staff\\ServiceGroup.cs",
+              "RelativeToolTip": "QFlick.Domain\\Entities\\staff\\ServiceGroup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T11:19:53.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "QueueDetail.cs",
+              "DocumentMoniker": "E:\\Projects\\QFlick\\QFlick-ProjectAPI\\QFlick-Project\\QFlick.Domain\\Entities\\Queue\\QueueDetail.cs",
+              "RelativeDocumentMoniker": "QFlick.Domain\\Entities\\Queue\\QueueDetail.cs",
+              "ToolTip": "E:\\Projects\\QFlick\\QFlick-ProjectAPI\\QFlick-Project\\QFlick.Domain\\Entities\\Queue\\QueueDetail.cs",
+              "RelativeToolTip": "QFlick.Domain\\Entities\\Queue\\QueueDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T11:16:52.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\Projects\\QFlick\\QFlick-ProjectAPI\\QFlick-Project\\QFlick.Domain\\Entities\\Client\\User.cs",
+              "RelativeDocumentMoniker": "QFlick.Domain\\Entities\\Client\\User.cs",
+              "ToolTip": "E:\\Projects\\QFlick\\QFlick-ProjectAPI\\QFlick-Project\\QFlick.Domain\\Entities\\Client\\User.cs",
+              "RelativeToolTip": "QFlick.Domain\\Entities\\Client\\User.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwBQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T10:39:14.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "KnowledgeBase.cs",
+              "DocumentMoniker": "E:\\Projects\\QFlick\\QFlick-ProjectAPI\\QFlick-Project\\QFlick.Domain\\Entities\\staff\\KnowledgeBase.cs",
+              "RelativeDocumentMoniker": "QFlick.Domain\\Entities\\staff\\KnowledgeBase.cs",
+              "ToolTip": "E:\\Projects\\QFlick\\QFlick-ProjectAPI\\QFlick-Project\\QFlick.Domain\\Entities\\staff\\KnowledgeBase.cs",
+              "RelativeToolTip": "QFlick.Domain\\Entities\\staff\\KnowledgeBase.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T11:04:26.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserDetail.cs",
+              "DocumentMoniker": "E:\\Projects\\QFlick\\QFlick-ProjectAPI\\QFlick-Project\\QFlick.Domain\\Entities\\Client\\UserDetail.cs",
+              "RelativeDocumentMoniker": "QFlick.Domain\\Entities\\Client\\UserDetail.cs",
+              "ToolTip": "E:\\Projects\\QFlick\\QFlick-ProjectAPI\\QFlick-Project\\QFlick.Domain\\Entities\\Client\\UserDetail.cs",
+              "RelativeToolTip": "QFlick.Domain\\Entities\\Client\\UserDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T11:02:09.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Setting.cs",
+              "DocumentMoniker": "E:\\Projects\\QFlick\\QFlick-ProjectAPI\\QFlick-Project\\QFlick.Domain\\Entities\\Setting.cs",
+              "RelativeDocumentMoniker": "QFlick.Domain\\Entities\\Setting.cs",
+              "ToolTip": "E:\\Projects\\QFlick\\QFlick-ProjectAPI\\QFlick-Project\\QFlick.Domain\\Entities\\Setting.cs",
+              "RelativeToolTip": "QFlick.Domain\\Entities\\Setting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T10:51:51.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "StaffUser.cs",
+              "DocumentMoniker": "E:\\Projects\\QFlick\\QFlick-ProjectAPI\\QFlick-Project\\QFlick.Domain\\Entities\\staff\\StaffUser.cs",
+              "RelativeDocumentMoniker": "QFlick.Domain\\Entities\\staff\\StaffUser.cs",
+              "ToolTip": "E:\\Projects\\QFlick\\QFlick-ProjectAPI\\QFlick-Project\\QFlick.Domain\\Entities\\staff\\StaffUser.cs",
+              "RelativeToolTip": "QFlick.Domain\\Entities\\staff\\StaffUser.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwA8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T10:47:35.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserSetting.cs",
+              "DocumentMoniker": "E:\\Projects\\QFlick\\QFlick-ProjectAPI\\QFlick-Project\\QFlick.Domain\\Entities\\Client\\UserSetting.cs",
+              "RelativeDocumentMoniker": "QFlick.Domain\\Entities\\Client\\UserSetting.cs",
+              "ToolTip": "E:\\Projects\\QFlick\\QFlick-ProjectAPI\\QFlick-Project\\QFlick.Domain\\Entities\\Client\\UserSetting.cs",
+              "RelativeToolTip": "QFlick.Domain\\Entities\\Client\\UserSetting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T10:39:36.301Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
