@@ -7,15 +7,15 @@ using System.Threading.Tasks;
 
 namespace QFlick.Domain.Entities.Queue
 {
-    public class QueueDetail: Entity
+    public class QueueDetail : Entity
     {
-        public int ServiceId { get; set; }
-        public int Waiting {  get; set; }
+        public int BuisnessId { get; set; }
+        public int Waiting { get; set; }
         public int Completed { get; set; }
         public int Missed { get; set; }
         public int Count { get; set; }
-        public int MinQLength { get; set; }
-        public int MaxQLength { get; set; }
+        public int MinLength { get; set; }
+        public int MaxLength { get; set; }
 
     }
 }

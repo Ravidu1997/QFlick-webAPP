@@ -8,6 +8,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QFlick-WebAPI", "QFlick-WebAPI\QFlick-WebAPI.csproj", "{09BAF0E7-ACAC-4E06-8FA2-FCB671C290A0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{09B96E1A-2DC6-41FD-A5B6-6992ED5FA290}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{BFC4AF77-6C2D-4127-95B8-DF85EB075F1E}"
 EndProject
