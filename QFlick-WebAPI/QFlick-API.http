@@ -1,0 +1,12 @@
+# Define the variable
+@QFlick_Api_BaseURL = https://localhost:5000/api
+
+### User Sign-In
+POST {{QFlick_Api_BaseURL}}/auth/sign-in
+Content-Type: application/json
+Accept: application/json
+
+{
+  "email": "user@example.com",
+  "firebaseToken": "SecurePassword123"
+}
