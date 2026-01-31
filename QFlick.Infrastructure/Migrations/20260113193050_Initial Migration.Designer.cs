@@ -12,7 +12,7 @@ using QFlick.Infrastructure.Persistence;
 namespace QFlick.Infrastructure.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260113183749_Initial Migration")]
+    [Migration("20260113193050_Initial Migration")]
     partial class InitialMigration
     {
         /// <inheritdoc />

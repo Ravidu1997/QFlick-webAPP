@@ -26,7 +26,7 @@ namespace QFlick_WebAPI.Controllers
         }
 
         [HttpPost("add-business")]
-        public async Task<IActionResult> AddBusiness([FromBody] RegBusinessDto user, CancellationToken cancellationToken)
+        public async Task<IActionResult> AddBusiness([FromBody] BusinessRegisterDto user, CancellationToken cancellationToken)
         {
             await _userService.AddNewBusiness(user, cancellationToken);
             return Ok();

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace QFlick.Domain.Interfaces
 {
-    public interface IStaffRepository : IGenericRepository<BusinessUsers>
+    public interface IStaffRepository : IGenericRepository<BusinessUser>
     {
     }
 }

@@ -18,9 +18,9 @@ namespace QFlick.Application.Mappers
         [MapperIgnoreTarget(nameof(RegCustomerDto.Password))]
         public partial AppUser RegCustomerDtoToAppUser(RegCustomerDto user);
 
-        [MapperIgnoreTarget(nameof(BusinessUsers.UId))]
-        [MapperIgnoreTarget(nameof(RegBusinessDto.Password))]
-        public partial BusinessUsers RegBusinessDtoToStaffUser(RegBusinessDto user);
+        [MapperIgnoreTarget(nameof(BusinessUser.UId))]
+        [MapperIgnoreTarget(nameof(BusinessRegisterDto.Password))]
+        public partial BusinessUser BusinessRegisterDtoToBusinessUser(BusinessRegisterDto user);
 
         public partial AppUserDto UserToAppUserDto(AppUser user);
     }

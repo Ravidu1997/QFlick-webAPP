@@ -27,7 +27,7 @@ namespace QFlick_WebAPI.Controllers.Auth
             {
                 return BadRequest();
             }
-            return Ok(new { message = "Login Successfull!" });
+            return Ok(result);
         }
 
     }

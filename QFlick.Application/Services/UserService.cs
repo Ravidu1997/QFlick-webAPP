@@ -6,6 +6,7 @@ using QFlick.Domain.DTOs.Client;
 using QFlick.Domain.Entities.Client.Business;
 using QFlick.Domain.Entities.Client.User;
 using QFlick.Domain.Interfaces;
+using FirebaseAdmin.Auth;
 
 namespace QFlick.Application.Services
 {
@@ -36,18 +37,20 @@ namespace QFlick.Application.Services
             await _unitOfWork.SaveChangesAsync();
         }
 
-        public async Task AddNewBusiness(RegBusinessDto user, CancellationToken cancellationToken)
+        public async Task AddNewBusiness(BusinessRegisterDto user, CancellationToken cancellationToken)
         {
-            var identityId = await _authService2.RegisterAsync(user.Email, user.Password);
+            var identityId = await _authService2.RegisterAsync(user.BusinessEmail, user.Password);
 
             var mapper = new UserMapper();
-            BusinessUsers businessEntity = mapper.RegBusinessDtoToStaffUser(user);
 
-            businessEntity.UId = identityId;
-            businessEntity.CreatedAt = DateTime.UtcNow;
+            BusinessUser businessUser = mapper.BusinessRegisterDtoToBusinessUser(user);
+            businessUser.UId = identityId;
+            businessUser.CreatedAt = DateTime.UtcNow;
 
-            await _unitOfWork.BusinessUserRepo.AddAsync(businessEntity, cancellationToken);
+            await _unitOfWork.BusinessUserRepo.AddAsync(businessUser, cancellationToken);
             await _unitOfWork.SaveChangesAsync();
+
+            await SetUserRoleClaimAsync(businessUser.UId, "business-admin", businessUser.Id);
         }
 
         public async Task<AppUserDto> GetUserDetailAsync(string uid)
@@ -57,6 +60,17 @@ namespace QFlick.Application.Services
             AppUser loggedUser = await _unitOfWork.UserRepo.GetUserDetail(uid);
             AppUserDto user = mapper.UserToAppUserDto(loggedUser);
             return user;
+        }
+
+        private async static Task SetUserRoleClaimAsync(string uid, string role, int businessId)
+        {
+            var claims = new Dictionary<string, object>()
+        {
+            { "role", role },
+            { "businessId", businessId }
+        };
+
+            await FirebaseAuth.DefaultInstance.SetCustomUserClaimsAsync(uid, claims);
         }
     }
 }

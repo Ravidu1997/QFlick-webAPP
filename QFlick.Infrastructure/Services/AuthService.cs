@@ -20,7 +20,7 @@ namespace QFlick.Infrastructure.Services
             _unitOfWork = unitOfWork;
         }
 
-        public async Task<string?> Login(LoginInputDto userData, CancellationToken cancellationToken)
+        public async Task<LoginResponseDto?> Login(LoginInputDto userData, CancellationToken cancellationToken)
         {
             var decodedToken = await FirebaseAuthentication();
             if (decodedToken == null)
@@ -29,7 +29,7 @@ namespace QFlick.Infrastructure.Services
             }
             if (userData.IsBusinessLogin is true)
             {
-                BusinessUsers? user = (await _unitOfWork.BusinessUserRepo.FindAsync(u => u.UId == decodedToken.Uid, cancellationToken)).FirstOrDefault();
+                BusinessUser? user = (await _unitOfWork.BusinessUserRepo.FindAsync(u => u.UId == decodedToken.Uid, cancellationToken)).FirstOrDefault();
                 if (user == null)
                 {
                     if (userData.IsSignFromGoogle is false)
@@ -37,10 +37,14 @@ namespace QFlick.Infrastructure.Services
 
                     if (userData.IsSignFromGoogle is true)
                     {
-                        BusinessUsers newUser = new()
+                        BusinessUser newUser = new()
                         {
+                            BusinessName = "",
+                            CategoryId = 0,
+                            City = "",
                             UId = decodedToken.Uid,
-                            Email = decodedToken.Claims["email"].ToString(),
+                            BusinessEmail = decodedToken.Claims["email"].ToString()!,
+                            IsAdmin = true,
                             CreatedAt = DateTime.UtcNow,
                         };
 
@@ -48,8 +52,12 @@ namespace QFlick.Infrastructure.Services
                         await _unitOfWork.SaveChangesAsync();
                     }
                 }
-                await SetUserRoleClaimAsync(decodedToken.Uid, "business-admin", null);
-                return "Business User Created successfully!";
+                //await SetUserRoleClaimAsync(decodedToken.Uid, "business-admin", 2);
+                return new LoginResponseDto
+                { 
+                    Message = "Login successfully!",
+                    UserRole = "business-admin"
+                };
             }
             else
             {
@@ -72,8 +80,12 @@ namespace QFlick.Infrastructure.Services
                         await _unitOfWork.SaveChangesAsync();
                     }
                 }
-                await SetUserRoleClaimAsync(decodedToken.Uid, "user", null);
-                return "User Created successfully!";
+                //await SetUserRoleClaimAsync(decodedToken.Uid, "user", null);
+                return new LoginResponseDto
+                {
+                    Message = "Login successfully!",
+                    UserRole = "User"
+                };
             }
         }
 

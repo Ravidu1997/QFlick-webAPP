@@ -1,7 +1,4 @@
 ﻿using QFlick.Application.Abstractions;
-using QFlick.Application.Mappers;
-using QFlick.Domain.DTOs.Business;
-using QFlick.Domain.Entities.Client.Business;
 using QFlick.Domain.Interfaces;
 
 namespace QFlick.Application.Services
@@ -20,15 +17,15 @@ namespace QFlick.Application.Services
             return true;
         }
 
-        public async Task CreateBusiness(CreateBusinessInputDto businessData, CancellationToken cancellationToken)
-        {
-            var mapper = new BusinessMapper();
-            BusinessServices businessEntity = mapper.CreateBusinessDtoToBusinessServices(businessData);
+        //public async Task CreateBusiness(CreateBusinessInputDto businessData, CancellationToken cancellationToken)
+        //{
+        //    var mapper = new BusinessMapper();
+        //    BusinessUser businessEntity = mapper.CreateBusinessDtoToBusinessUser(businessData);
 
-            businessEntity.CreatedAt = DateTime.UtcNow;
+        //    businessEntity.CreatedAt = DateTime.UtcNow;
 
-            await _unitOfWork.BusinessRepo.AddAsync(businessEntity, cancellationToken);
-            await _unitOfWork.SaveChangesAsync();
-        }
+        //    await _unitOfWork.BusinessRepo.AddAsync(businessEntity, cancellationToken);
+        //    await _unitOfWork.SaveChangesAsync();
+        //}
     }
 }

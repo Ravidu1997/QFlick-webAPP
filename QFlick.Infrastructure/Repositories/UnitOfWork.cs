@@ -12,14 +12,14 @@ namespace QFlick.Infrastructure.Repositories
 
         public IUserRepository UserRepo { get; }
         public IBusinessRepostiory BusinessRepo { get; }
-        public IGenericRepository<BusinessUsers> BusinessUserRepo { get; }
+        public IGenericRepository<BusinessUser> BusinessUserRepo { get; }
 
         public UnitOfWork(AppDbContext context)
         {
             _context = context;
             UserRepo = new UserRepository(context);
             BusinessRepo = new BusinessRepostiory(context);
-            BusinessUserRepo = new GenericRepository<BusinessUsers>(context);
+            BusinessUserRepo = new GenericRepository<BusinessUser>(context);
         }
 
         public async Task BeginTransactionAsync()

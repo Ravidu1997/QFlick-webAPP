@@ -11,7 +11,7 @@ namespace QFlick.Domain.Interfaces
     {
         IUserRepository UserRepo { get; }
         IBusinessRepostiory BusinessRepo { get; }
-        IGenericRepository<BusinessUsers> BusinessUserRepo { get; }
+        IGenericRepository<BusinessUser> BusinessUserRepo { get; }
 
         Task<int> SaveChangesAsync();
         Task BeginTransactionAsync();
