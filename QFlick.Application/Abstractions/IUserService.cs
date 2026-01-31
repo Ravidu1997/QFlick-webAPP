@@ -12,7 +12,7 @@ namespace QFlick.Application.Abstractions
     {
         //Task<List<QueueDetail>> GetUsersByQueueId(int queueId);
         Task AddNewCustomer(RegCustomerDto user, CancellationToken cancellationToken);
-        Task AddNewBusiness(RegBusinessDto user, CancellationToken cancellationToken);
+        Task AddNewBusiness(BusinessRegisterDto user, CancellationToken cancellationToken);
         Task<AppUserDto> GetUserDetailAsync(string uid);
     }
 }

@@ -1,24 +1,31 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace QFlick.Domain.DTOs.Client
 {
-    public class RegBusinessDto
+    public class BusinessRegisterDto
     {
         [Required]
-        public required string Name { get; set; }
-        [Required]
-        public required string City { get; set; }
+        public required string BusinessName { get; set; }
+
         [Required]
         [EmailAddress]
-        public required string Email { get; set; }
+        public required string BusinessEmail { get; set; }
+
         [Required]
-        public required string Password { get; set; }
+        public required int CategoryId { get; set; }
+
         [Required]
         public required string PhoneNumber { get; set; }
-    }
-}
+
+        public required string Address { get; set; } 
+
+        [Required]
+        public required string City { get; set; }
+
+        [Required]
+        public required string Password { get; set; }
+
+        public required bool IsAdmin { get; set; }
+
+        }
+   }

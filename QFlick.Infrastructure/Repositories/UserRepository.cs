@@ -20,7 +20,7 @@ namespace QFlick.Infrastructure.Repositories
 
         public async Task<AppUser> GetUserDetail(string uid)
         {
-            return await _context.User
+            return await _context.AppUser
                 .Where(u => u.UId == uid)
                 .FirstAsync();
         }

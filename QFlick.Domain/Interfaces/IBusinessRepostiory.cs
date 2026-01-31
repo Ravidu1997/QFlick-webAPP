@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace QFlick.Domain.Interfaces
 {
-    public interface IBusinessRepostiory : IGenericRepository<BusinessServices>
+    public interface IBusinessRepostiory : IGenericRepository<BusinessUser>
     {
         Task<bool> IsOwnBusiness(string userId, int businessId);
     }

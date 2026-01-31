@@ -14,8 +14,8 @@ namespace QFlick.Infrastructure.Persistence
     public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(options)
     {
         #region -users to the application
-        public DbSet<AppUser> User { get; set; }
-        public DbSet<BusinessUsers> Staff { get; set; }
+        public DbSet<AppUser> AppUser { get; set; }
+        public DbSet<BusinessUser> BusinessUser { get; set; }
         #endregion
 
 
@@ -33,7 +33,7 @@ namespace QFlick.Infrastructure.Persistence
         #endregion
 
         #region -business
-        public DbSet<BusinessServices> Business { get; set; }
+        //public DbSet<BusinessProfile> Business { get; set; }
         public DbSet<BusinessCategory> BusinessCategory { get; set; }
         #endregion
 

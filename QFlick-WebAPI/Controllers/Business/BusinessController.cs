@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Mvc;
 using QFlick.Application.Abstractions;
 using QFlick.Application.Interfaces;
-using QFlick.Domain.DTOs.Business;
 
 namespace QFlick_WebAPI.Controllers.Business
 {
@@ -28,12 +27,14 @@ namespace QFlick_WebAPI.Controllers.Business
             return Ok(new { message = "Business switched! Please refresh token." });
         }
 
-        [HttpPost("add-business")]
-        public async Task<IActionResult> CreateBusiness([FromBody] CreateBusinessInputDto businessData, CancellationToken cancellationToken)
-        {
+        //[HttpPost("add-business")]
+        //public async Task<IActionResult> CreateBusiness([FromBody] CreateBusinessInputDto businessData, CancellationToken cancellationToken)
+        //{
 
-            await _businessService.CreateBusiness(businessData, cancellationToken);
-            return Ok(new { message = "Business created successfully!" });
-        }
+        //    await _businessService.CreateBusiness(businessData, cancellationToken);
+        //    return Ok(new { message = "Business created successfully!" });
+        //}
+
+
     }
 }

@@ -12,8 +12,8 @@ using QFlick.Infrastructure.Persistence;
 namespace QFlick.Infrastructure.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260113181643_Initial")]
-    partial class Initial
+    [Migration("20260131175912_Business User Changed, Business Locations, Services entities added")]
+    partial class BusinessUserChangedBusinessLocationsServicesentitiesadded
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -75,13 +75,17 @@ namespace QFlick.Infrastructure.Migrations
                         });
                 });
 
-            modelBuilder.Entity("QFlick.Domain.Entities.Client.Business.BusinessServices", b =>
+            modelBuilder.Entity("QFlick.Domain.Entities.Client.Business.BusinessUser", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Address")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("BusinessEmail")
                         .IsRequired()
@@ -94,34 +98,9 @@ namespace QFlick.Infrastructure.Migrations
                     b.Property<int>("CategoryId")
                         .HasColumnType("int");
 
-                    b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime?>("DeletetAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<bool>("IsActive")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("UserId")
+                    b.Property<string>("City")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Business");
-                });
-
-            modelBuilder.Entity("QFlick.Domain.Entities.Client.Business.BusinessUsers", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int?>("BusinessId")
-                        .HasColumnType("int");
 
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
@@ -129,17 +108,13 @@ namespace QFlick.Infrastructure.Migrations
                     b.Property<DateTime?>("DeleatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("Email")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<bool>("IsActive")
                         .HasColumnType("bit");
 
                     b.Property<bool>("IsAdmin")
                         .HasColumnType("bit");
 
-                    b.Property<string>("Name")
+                    b.Property<string>("PhoneNumber")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -155,7 +130,7 @@ namespace QFlick.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Staff");
+                    b.ToTable("BusinessUser");
                 });
 
             modelBuilder.Entity("QFlick.Domain.Entities.Client.User.AppUser", b =>
@@ -232,7 +207,7 @@ namespace QFlick.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("User");
+                    b.ToTable("AppUser");
                 });
 
             modelBuilder.Entity("QFlick.Domain.Entities.Common.AppMenuItem", b =>
